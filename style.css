@@ -29,6 +29,26 @@
     padding-top: 60px;
 }
 
+
+
+@media (max-width: 576px) {
+    .custom-class {
+        display: none;
+    }
+
+}
+@media (min-width: 768px){
+
+.card-move {
+    transform: translateY(5rem);
+}
+
+}
+
+.font-family {
+    font-family: 'Festive' , cursive
+}
+
 .bg-img {
     background: url(https://p0.pikist.com/photos/145/518/pismo-beach-california-sky-clouds-sunset-colorful-solitude-pier-silhouette.jpg) no-repeat;
     background-size: cover;
